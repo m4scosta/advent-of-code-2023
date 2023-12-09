@@ -6,7 +6,7 @@ class Main {
     companion  object {
         @JvmStatic
         fun main(args: Array<String>) {
-            val solution = DayTwoPart2()
+            val solution = DayThreePart2()
             for (inputFileName in solution.inputFileNames) {
                 println("Solving $inputFileName")
                 solution.solve(readInputFile(inputFileName))

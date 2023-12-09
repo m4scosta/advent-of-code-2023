@@ -8,4 +8,12 @@ object Helpers {
             .filter(String::isNotBlank)
             .map(itemParser)
     }
+
+    fun List<Int>.product(): Int {
+        return this.reduce { acc, n -> acc * n }
+    }
+
+    fun List<Int>.productOrDefault(default: () -> Int): Int {
+        return this.reduceOrNull { acc, n -> acc * n } ?: default()
+    }
 }
