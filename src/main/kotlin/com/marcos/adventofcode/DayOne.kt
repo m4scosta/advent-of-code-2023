@@ -3,7 +3,9 @@ package com.marcos.adventofcode
 import java.io.InputStream
 
 internal class DayOne : Solution {
-    override val inputFileName = "/dayOneInput.txt"
+    override val inputFileNames = listOf(
+        "/dayOneInput.txt",
+    )
 
     override fun solve(input: InputStream) {
         val result = input.bufferedReader().lines()

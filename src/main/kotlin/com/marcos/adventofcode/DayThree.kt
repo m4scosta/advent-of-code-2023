@@ -41,7 +41,9 @@ import java.io.InputStream
  * schematic?
  */
 internal class DayThree : Solution {
-    override val inputFileName = "/dayThreeInput.txt"
+    override val inputFileNames = listOf(
+        "/dayThreeInput.txt",
+    )
 
     override fun solve(input: InputStream) {
         val engineSchematic = input.bufferedReader().lines()

@@ -124,7 +124,9 @@ import java.io.InputStream
  * What is the lowest location number that corresponds to any of the initial seed numbers?
  */
 internal class DayFive : Solution {
-    override val inputFileName = "/dayFiveInput.txt"
+    override val inputFileNames = listOf(
+        "/dayFiveInput.txt",
+    )
 
     override fun solve(input: InputStream) {
         val inputIterator = input.bufferedReader().lines().iterator()

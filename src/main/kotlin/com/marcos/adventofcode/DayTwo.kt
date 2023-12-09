@@ -45,7 +45,9 @@ import java.io.InputStream
  * 14 blue cubes. What is the sum of the IDs of those games?
  */
 internal class DayTwo : Solution {
-    override val inputFileName = "/dayTwoInput.txt"
+    override val inputFileNames = listOf(
+        "/dayTwoInput.txt",
+    )
 
     override fun solve(input: InputStream) {
         val result = input.bufferedReader().lines()

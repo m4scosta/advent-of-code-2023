@@ -55,7 +55,9 @@ import kotlin.math.pow
  * Take a seat in the large pile of colorful cards. How many points are they worth in total?
  */
 internal class DayFour : Solution {
-    override val inputFileName = "/dayFourInput.txt"
+    override val inputFileNames = listOf(
+        "/dayFourInput.txt",
+    )
 
     override fun solve(input: InputStream) {
         val result = input.bufferedReader().lines()
