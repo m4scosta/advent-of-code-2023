@@ -1,6 +1,5 @@
 package com.marcos.adventofcode
 
-import com.marcos.adventofcode.Helpers.product
 import com.marcos.adventofcode.Helpers.productOrDefault
 import java.io.InputStream
 
@@ -47,7 +46,7 @@ import java.io.InputStream
  *
  *
  */
-internal class DayThreePart2 : Solution {
+internal class Day3Part2 : Solution {
     override val inputFileNames = listOf(
         "/dayThreeInput.txt",
         "/dayThreeInput-example.txt",

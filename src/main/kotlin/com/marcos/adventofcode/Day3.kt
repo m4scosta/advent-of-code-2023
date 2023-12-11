@@ -40,7 +40,7 @@ import java.io.InputStream
  * Of course, the actual engine schematic is much larger. What is the sum of all of the part numbers in the engine
  * schematic?
  */
-internal class DayThree : Solution {
+internal class Day3 : Solution {
     override val inputFileNames = listOf(
         "/dayThreeInput.txt",
     )

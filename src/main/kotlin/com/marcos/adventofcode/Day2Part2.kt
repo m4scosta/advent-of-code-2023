@@ -1,10 +1,6 @@
 package com.marcos.adventofcode
 
 import java.io.InputStream
-import java.util.stream.Collectors
-import kotlin.math.min
-import kotlin.streams.asSequence
-import kotlin.streams.toList
 
 /**
  * --- Part Two ---
@@ -36,7 +32,7 @@ import kotlin.streams.toList
  *
  * For each game, find the minimum set of cubes that must have been present. What is the sum of the power of these sets?
  */
-internal class DayTwoPart2 : Solution {
+internal class Day2Part2 : Solution {
     override val inputFileNames = listOf(
         "/dayTwoInput.txt",
         "/dayTwoInput-example.txt",

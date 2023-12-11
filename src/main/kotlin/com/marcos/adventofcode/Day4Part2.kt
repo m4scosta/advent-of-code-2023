@@ -42,7 +42,7 @@ import java.io.InputStream
  * Process all of the original and copied scratchcards until no more scratchcards are won. Including the original set of
  * scratchcards, how many total scratchcards do you end up with?
  */
-internal class DayFourPart2 : Solution {
+internal class Day4Part2 : Solution {
     override val inputFileNames = listOf(
         "/dayFourInput-example.txt",
         "/dayFourInput.txt",

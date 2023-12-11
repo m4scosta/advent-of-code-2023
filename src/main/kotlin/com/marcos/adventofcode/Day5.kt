@@ -123,7 +123,7 @@ import java.io.InputStream
  *
  * What is the lowest location number that corresponds to any of the initial seed numbers?
  */
-internal class DayFive : Solution {
+internal class Day5 : Solution {
     override val inputFileNames = listOf(
         "/dayFiveInput.txt",
     )

@@ -26,7 +26,7 @@ import kotlin.math.min
  * Consider all of the initial seed numbers listed in the ranges on the first line of the almanac. What is the lowest
  * location number that corresponds to any of the initial seed numbers?
  */
-internal class DayFivePart2 : Solution {
+internal class Day5Part2 : Solution {
     override val inputFileNames = listOf(
         "/dayFiveInput-example.txt",
         "/dayFiveInput.txt",

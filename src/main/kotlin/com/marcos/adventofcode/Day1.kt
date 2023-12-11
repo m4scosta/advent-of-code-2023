@@ -2,7 +2,7 @@ package com.marcos.adventofcode
 
 import java.io.InputStream
 
-internal class DayOne : Solution {
+internal class Day1 : Solution {
     override val inputFileNames = listOf(
         "/dayOneInput.txt",
     )

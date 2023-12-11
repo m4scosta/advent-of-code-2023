@@ -4,7 +4,7 @@ import java.io.InputStream
 
 /**
  */
-internal class DaySix : Solution {
+internal class Day6 : Solution {
     override val inputFileNames = listOf(
         "/daySixInput.txt",
         "/daySixInput-part2.txt",
